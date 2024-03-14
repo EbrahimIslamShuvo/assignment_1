@@ -5,7 +5,10 @@ class Media{
 }
 
 class Song extends Media{
-  String artist= "Rafa";
+  String artist;
+
+  Song(this.artist);
+
   play(){
     print("Playing song by $artist");
   }
